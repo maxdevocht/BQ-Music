@@ -8,9 +8,12 @@
 
   --biggest-font-size: 2.25rem;
   --h1-font-size: 1.5rem;
+  --h1-font-size-lg: 3rem;
   --h2-font-size: 1.25rem;
+  --h2-font-size-lg: 2.25rem;
   --h3-font-size: 1rem;
   --p-font-size: 1.125rem;
+  --p-font-size-lg: 1.25rem;
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
 
@@ -54,8 +57,7 @@ body {
   top: 0;
   right: 0;
   height: 100vh;
-  width: 180px;
-  background-color: var(--color-black);
+  width: 300px;
   margin-left: 1rem;
   display: flex;
   flex-direction: column;
@@ -103,5 +105,87 @@ body {
   right: 0;
   padding: 2rem;
   font-size: 2rem;
+  color: var(--color-white);
+}
+
+/* header styling */
+.header {
+  max-width: 80%;
+  margin: 5rem 2rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.title {
+  color: var(--color-white);
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.title .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 3s ease;
+}
+
+.title .logo img {
+  width: 3rem;
+}
+
+.title .logo h1 a {
+  color: var(--color-white);
+  font-size: var(--h1-font-size-lg);
+  font-family: 'Rubik', sans-serif;
+}
+
+.title .logo:hover {
+  text-decoration: underline;
+}
+
+.title h2 {
+  font-size: var(--h2-font-size);
+  font-family: 'PT Mono', sans-serif;
+  font-weight: 400;
+}
+
+.title p {
+  font-size: var(--p-font-size);
+  font-family: 'DM Sans', sans-serif;
+  color: var(--color-green);
+}
+
+.title p a {
+  color: var(--color-green);
+  text-decoration: underline;
+}
+
+.title p a:hover {
+  text-decoration: none;
+}
+
+.bio {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.bio p {
+  font-size: var(--h3-font-size);
+  font-weight: 400;
+  font-family: 'PT Mono', sans-serif;
+  line-height: 2;
   color: var(--color-white);
 }
