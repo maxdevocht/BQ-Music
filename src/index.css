@@ -195,3 +195,24 @@ body {
   line-height: 2;
   color: var(--color-white);
 }
+
+/* work styling */
+.section {
+  max-width: 80%;
+  margin: 5rem 2rem;
+}
+
+.section--label {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid var(--color-white);
+  border-radius: 1rem;
+  background-color: var(--color-black);
+}
+
+.label {
+  color: var(--color-white);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-regular);
+  font-family: 'PT Mono', sans-serif;
+}
