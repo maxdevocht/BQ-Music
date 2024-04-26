@@ -45,6 +45,7 @@ img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 body {
@@ -226,3 +227,25 @@ body {
   font-weight: var(--font-regular);
   font-family: 'PT Mono', sans-serif;
 }
+
+/* slider styling */
+.splide {
+  border: 1px solid #f2f2f239;
+  background: #313131;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+.card__title {
+  font-size: var(--h1-font-size);
+  font-family: 'PT Mono', sans-serif;
+  font-weight: var(--font-regular);
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
+
+.slider {
+  margin: 2rem 2rem;
+  border-radius: 10px;
+}
+
