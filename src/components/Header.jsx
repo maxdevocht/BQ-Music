@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
     return (
-        <header className="header">
+        <header id="home" className="header">
             <div className="title">
                 <div className="logo">
                     <img src="/logo.svg" alt="BQ logo"/>
