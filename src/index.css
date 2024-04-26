@@ -230,10 +230,13 @@ body {
 
 /* slider styling */
 .splide {
-  border: 1px solid #f2f2f239;
-  background: #313131;
+  border: 2px solid #f2f2f225;
   border-radius: 10px;
   margin: 2rem 0;
+  background: #1a1a1a;
+  background: linear-gradient(90deg, rgb(41, 41, 41) 35%, rgb(45, 45, 45) 65%, rgb(44, 44, 44) 98%);
+  box-shadow:  10px 10px 20px #0e0e0e,
+            -10px -10px 20px #0e0e0e;
 }
 
 .card__title {
