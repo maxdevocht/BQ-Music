@@ -37,10 +37,6 @@ li {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-}
-
 img {
   object-fit: cover;
   width: 100%;
@@ -164,6 +160,7 @@ body {
   color: var(--color-white);
   font-size: var(--h1-font-size-lg);
   font-family: 'Rubik', sans-serif;
+  text-decoration: none;
 }
 
 .title .logo:hover {
@@ -310,15 +307,14 @@ body {
   margin-top: 50px;
 }
 
-.contact a {
+.contact__link {
   font-size: 20px;
   font-family: 'DM Sans', sans-serif;
   color: var(--color-red);
-  text-decoration: underline;
   cursor: pointer;
 }
 
-.contact a:hover {
+.contact__link:hover {
   text-decoration: none;
 }
 

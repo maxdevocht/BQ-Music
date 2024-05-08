@@ -8,19 +8,19 @@ export default function Artiesten() {
             </div>
 
             <div class="artiest">
-                <img src="/img/jet.svg" />
+                <img src="/jet.svg" />
                 <h3>- Jet Rebel</h3>
             </div>
             <div class="artiest">
-                <img src="/img/ciao.svg" />
+                <img src="/ciao.svg" />
                 <h3>- Ciao Lucifer</h3>
             </div>
             <div class="artiest">
-                <img src="/img/hout.svg" />
+                <img src="/hout.svg" />
                 <h3>- Van Dik Hout</h3>
             </div>
             <div class="artiest">
-                <img src="/img/chris.svg" />
+                <img src="/chris.svg" />
                 <h3>- Chris Bickley</h3>
             </div>
         </section>
