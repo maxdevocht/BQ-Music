@@ -5,6 +5,7 @@ import Work from './components/Work'
 import Reviews from './components/Reviews'
 import Artiesten from './components/Artiesten'
 import Footer from './components/Footer'
+import Sidebar from './components/Sidebar'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Reviews />
       <Artiesten />
       <Footer />
+      <Sidebar />
     </>
   )
 }

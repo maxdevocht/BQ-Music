@@ -23,23 +23,23 @@ export default function Work() {
                         </SplideSlide>
                         <SplideSlide>
                             <h1 className="card__title">Jazzbass X-blend Wiring</h1>
-                            <img src="/13.svg" alt="Image 2"/>
+                            <img src="/8.svg" alt="Image 2"/>
                         </SplideSlide>
                         <SplideSlide>
                             <h1 className="card__title">Custom-made PreAmps</h1>
-                            <img src="/17.svg" alt="Image 3"/>
-                        </SplideSlide>
-                        <SplideSlide>
-                            <h1 className="card__title">Brooks Bass; Master Volume and Dual Output</h1>
                             <img src="/20.svg" alt="Image 3"/>
                         </SplideSlide>
                         <SplideSlide>
+                            <h1 className="card__title">Brooks Bass; Master Volume and Dual Output</h1>
+                            <img src="/17.svg" alt="Image 3"/>
+                        </SplideSlide>
+                        <SplideSlide>
                             <h1 className="card__title">POT Overdrive; based on the King of Tone</h1>
-                            <img src="/21.svg" alt="Image 3"/>
+                            <img src="/23.svg" alt="Image 3"/>
                         </SplideSlide>
                         <SplideSlide>
                             <h1 className="card__title">SWUNG Guitar Wiring</h1>
-                            <img src="/27.svg" alt="Image 3"/>
+                            <img src="/13.svg" alt="Image 3"/>
                         </SplideSlide>
                         <SplideSlide>
                             <h1 className="card__title">Wiring Harness</h1>

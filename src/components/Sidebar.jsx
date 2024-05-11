@@ -1,16 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 
-export default function Navbar() {
-
-    const [showMenu, setShowMenu] = useState(true);
-
-    const handleClick = () => {
-        setShowMenu(prevState => !prevState);
-    };
-
-    return(
-        <nav className="nav">
-            <div className={`nav__menu ${showMenu ? 'show-menu' : ''}`}>
+export default function Sidebar() {
+    return (
+        <div className="sidebar">
+            <div className="sidebar__menu">
                 <ul className="home__list">
                     <li className="list__item"><a href="#home">_Home</a></li>
                     <li className="list__item"><a href="#work">_Recent Werk</a></li>
@@ -25,10 +18,6 @@ export default function Navbar() {
                     <li className="list__item"><a href="https://www.etsy.com/shop/BQmusic?fbclid=IwAR0o1SB_9czAXPARyTmJ-40rpDwGwZa9VjSMvunckedbf9Ozdse7eRuLdJE">_Etsy</a></li>
                 </ul>
             </div>
-
-            <div className="nav__mobile" onClick={handleClick}>
-                <i id="bar" className={showMenu ? "ri-menu-line" : "ri-close-large-line"}></i>
-            </div>
-        </nav>
+        </div>
     )
 }

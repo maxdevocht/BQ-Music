@@ -234,6 +234,7 @@ body {
   background: linear-gradient(90deg, rgb(41, 41, 41) 35%, rgb(45, 45, 45) 65%, rgb(44, 44, 44) 98%);
   box-shadow:  10px 10px 20px #0e0e0e,
             -10px -10px 20px #0e0e0e;
+  max-width: 700px;
 }
 
 .card__title {
@@ -307,14 +308,15 @@ body {
   margin-top: 50px;
 }
 
-.contact__link {
+.contact a {
   font-size: 20px;
   font-family: 'DM Sans', sans-serif;
   color: var(--color-red);
   cursor: pointer;
+  text-decoration: underline;
 }
 
-.contact__link:hover {
+.contact a:hover {
   text-decoration: none;
 }
 
@@ -330,4 +332,48 @@ body {
   font-family: 'DM Sans', sans-serif;
   color: var(--color-grey);
   margin-top: 90px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header,
+  .section,
+  .footer {
+    margin: 5rem;
+    padding-right: 10rem;
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 200px;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.sidebar__menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  width: 300px;
+  padding-left: 1rem;
+  gap: 3rem; /* Add smooth transition */
+}
+
+@media screen and (max-width: 1023px) {
+  .sidebar {
+    display: none;
+  }
 }
